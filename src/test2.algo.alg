@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER c"/>
+    <description courant="AFFICHER d" texte=""/>
     <extension extnom="inactif"/>
-    <fonction fctcode="" fctetat="inactif"/>
-    <F2 F2para="" F2lignes="" F2etat="inactif" F2defaut=""/>
-    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param epaisseurLigne="2" maxBoucle="500000" epaisseurPoint="2" arrondiAuto="vrai" totalAffichages="1000" nbDecimales="8" totalBoucles="5000000"/>
-    <item code="200#declarationfonctions" algoitem="FONCTIONS_UTILISEES"/>
-    <item code="100#declarationsvariables" algoitem="VARIABLES">
-        <item code="1#NOMBRE#a" algoitem="a EST_DU_TYPE NOMBRE"/>
-        <item code="1#NOMBRE#b" algoitem="b EST_DU_TYPE NOMBRE"/>
-        <item code="1#NOMBRE#c" algoitem="c EST_DU_TYPE NOMBRE"/>
+    <fonction fctetat="inactif" fctcode=""/>
+    <F2 F2defaut="" F2para="" F2etat="inactif" F2lignes=""/>
+    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
+    <param totalAffichages="1000" nbDecimales="8" epaisseurLigne="2" maxBoucle="500000" totalBoucles="5000000" epaisseurPoint="2" arrondiAuto="vrai"/>
+    <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
+    <item algoitem="VARIABLES" code="100#declarationsvariables">
+        <item algoitem="a EST_DU_TYPE NOMBRE" code="1#NOMBRE#a"/>
+        <item algoitem="b EST_DU_TYPE NOMBRE" code="1#NOMBRE#b"/>
+        <item algoitem="d EST_DU_TYPE NOMBRE" code="1#NOMBRE#d"/>
     </item>
-    <item code="101#debutalgo" algoitem="DEBUT_ALGORITHME">
-        <item code="2#a#pasliste" algoitem="LIRE a"/>
-        <item code="2#b#pasliste" algoitem="LIRE b"/>
-        <item code="5#c#a / b#pasliste" algoitem="c PREND_LA_VALEUR a / b"/>
-        <item code="3#c#0#pasliste" algoitem="AFFICHER c"/>
+    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
+        <item algoitem="LIRE a" code="2#a#pasliste"/>
+        <item algoitem="LIRE b" code="2#b#pasliste"/>
+        <item algoitem="d PREND_LA_VALEUR a / b" code="5#d#a / b#pasliste"/>
+        <item algoitem="AFFICHER d" code="3#d#0#pasliste"/>
     </item>
-    <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
 </Algo>
