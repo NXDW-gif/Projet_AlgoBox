@@ -66,9 +66,9 @@ Les fichiers sources sont fournis dans le dossier `src/`.
 
 \## Auteurs
 
-\- Prénom Nom
+\- Clément JOLLY
 
-\- Prénom Nom
+\- Corentin CHAUFFOUR
 
 
 
