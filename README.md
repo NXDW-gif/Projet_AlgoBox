@@ -2,33 +2,73 @@
 
 
 
-\## Contexte
+\## Description
 
-Projet réalisé en algorithmique avec AlgoBox dans le cadre du cursus 2A.
-
-Le code est versionné et partagé via GitHub.
+Ce projet contient des algorithmes réalisés avec le logiciel \*\*AlgoBox\*\* dans le cadre du projet d’algorithmique.
 
 
 
-\## Contenu du dépôt
-
-\- src/ : contient les fichiers AlgoBox (.algo)
+Les fichiers sources sont fournis dans le dossier `src/`.
 
 
 
-\## Exécution
+---
 
-1\. Ouvrir AlgoBox
 
-2\. Cliquer sur Fichier → Ouvrir
 
-3\. Ouvrir le fichier src/test.algo.alg (ou test2.algo.alg)
+\## Prérequis
 
-4\. Exécuter l'algorithme
+\- Système : Windows
+
+\- Logiciel : AlgoBox (version officielle)
+
+
+
+---
+
+
+
+\## Ouverture des fichiers AlgoBox
+
+
+
+1\. Ouvrir le logiciel \*\*AlgoBox\*\*
+
+2\. Cliquer sur \*\*Fichier → Ouvrir\*\*
+
+3\. Aller dans le dossier `src/`
+
+4\. Sélectionner un fichier `.algo`
+
+5\. Cliquer sur \*\*Ouvrir\*\*
+
+
+
+---
+
+
+
+\## Exécution d’un algorithme
+
+
+
+1\. Ouvrir le fichier dans AlgoBox
+
+2\. Cliquer sur le bouton \*\*Exécuter\*\*
+
+3\. Suivre les instructions affichées (saisies, résultats, etc.)
+
+
+
+---
 
 
 
 \## Auteurs
 
-\- Clément
+\- Prénom Nom
+
+\- Prénom Nom
+
+
 
